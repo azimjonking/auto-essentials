@@ -1,0 +1,120 @@
+footer {
+  width: 100%;
+  padding: 98px 100px 47px;
+}
+
+.footer-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.footer-logo {
+  width: 100%;
+}
+
+.footer-logo a {
+  width: 100%;
+}
+
+.footer-logo a img {
+  width: 100%;
+}
+
+.footer-right__container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+}
+
+.footer-right__container .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-right__container .content h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #9f9f9f;
+  margin-bottom: 55px;
+}
+
+.footer-right__container .content > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 46px;
+}
+
+.footer-right__container .content > ul > li a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000000;
+}
+
+.footer-newsletter > form {
+  display: flex;
+  align-self: flex-end;
+  gap: 11px;
+}
+
+.footer-newsletter > form input {
+  border: none;
+  outline: none;
+  width: 200px;
+  padding: 4px 0;
+  border-bottom: 1px solid #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #000;
+}
+
+.footer-newsletter > form input::placeholder {
+  color: #9f9f9f;
+}
+
+.footer-newsletter > form button {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 4px 0;
+  border-bottom: 1px solid #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  color: #000000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.copyright {
+  margin-top: 48px;
+  width: 100%;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 27px;
+}
+
+.copyright p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}

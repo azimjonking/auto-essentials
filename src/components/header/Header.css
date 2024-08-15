@@ -1,0 +1,50 @@
+header {
+  padding: 25px 130px;
+  background: #868686;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .header-call,
+header .header-email {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+header .header-call .icon,
+header .header-email .icon {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+header .header-call a,
+header .header-email a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+header > button {
+  padding: 12px 33px;
+  background: #4e4b4b;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+header > button:hover {
+  background: #ffffff;
+  color: #000;
+}
