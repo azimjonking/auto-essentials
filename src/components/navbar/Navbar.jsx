@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className='navbar-icons'>
         <ul>
           <li>
-            <Link to='/'>
+            <Link to='/myaccount'>
               <FaUserXmark />
             </Link>
           </li>
@@ -49,7 +49,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to='/'>
+            <Link to='/cart'>
               <IoCartOutline />
             </Link>
           </li>

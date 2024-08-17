@@ -10,6 +10,8 @@ import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
 import Shop from "./pages/shop/Shop"
 import Contact from "./pages/contact/Contact"
+import Myaccount from './pages/myaccount/Myaccount'
+import Cart from "./pages/cart/Cart"
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/shop' element={<Shop />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/myaccount' element={<Myaccount />} />
+          <Route path='/cart' element={<Cart />} />
         </Routes>
       </main>
       <Footer />

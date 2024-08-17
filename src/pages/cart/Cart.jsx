@@ -1,10 +1,13 @@
 import "./Cart.css";
+import Services from "../../components/services/Services";
+import CartTable from "../../components/cartTable/CartTable";
 
 const Cart = () => {
   return (
-    <div>
-      <h1>Cart</h1>
-    </div>
+    <>
+      <CartTable />
+      <Services />
+    </>
   );
 };
 

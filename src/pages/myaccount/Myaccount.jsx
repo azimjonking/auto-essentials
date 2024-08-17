@@ -1,10 +1,13 @@
 import "./Myaccount.css";
+import Services from '../../components/services/Services'
+import Login from '../../components/login/Login'
 
 const Myaccount = () => {
   return (
-    <div>
-      <h1>Myaccount</h1>
-    </div>
+    <>
+      <Login />
+      <Services />
+    </>
   );
 };
 

@@ -1,0 +1,215 @@
+.login-container {
+  padding: 63px 100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+}
+
+.login,
+.register {
+  padding: 35px 72px 58px;
+  width: 100%;
+}
+
+.login form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 36px;
+}
+
+.login form h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  color: #000000;
+}
+
+.login form .form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+}
+
+.login form .form-group label {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+}
+
+.login form .form-group input {
+  padding: 15px 20px;
+  width: 80%;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.login form > label {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+.login form > label input {
+  display: none;
+}
+
+.login form > label .icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #9f9f9f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  font-size: 18px;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.login form > label input:checked ~ .icon {
+  background: #d9d9d9;
+  color: #000000;
+}
+
+.login form > label .text {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+  user-select: none;
+}
+
+.login form .links {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+
+.login form .links .login-link {
+  padding: 17px;
+  min-width: 215px;
+  text-decoration: none;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+
+.login form .links .forget-password {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+}
+
+.register form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.register form h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: left;
+  color: #000000;
+}
+
+.register form .form-group {
+  margin-top: 36px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+}
+
+.register form .form-group label {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
+}
+
+.register form .form-group input {
+  padding: 15px 20px;
+  width: 80%;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.register form p:nth-child(3) {
+  margin-top: 36px;
+}
+
+.register form p:nth-child(4) {
+  margin-top: 18px;
+}
+
+.register form p {
+  width: 80%;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: justified;
+  color: #000000;
+}
+
+.register form p a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+}
+
+.register form > a {
+  margin-top: 64px;
+  padding: 17px;
+  min-width: 215px;
+  text-decoration: none;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
