@@ -1,10 +1,13 @@
 import "./Checkout.css";
+import Services from '../../components/services/Services'
+import BillingDetails from '../../components/billingDetails/BillingDetails';
 
 const Checkout = () => {
   return (
-    <div>
-      <h1>Checkout</h1>
-    </div>
+    <>
+      <BillingDetails />
+      <Services />
+    </>
   );
 };
 
