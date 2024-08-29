@@ -15,6 +15,11 @@ import Cart from "./pages/cart/Cart"
 import Checkout from './pages/checkout/Checkout'
 import Details from './pages/details/Details'
 
+// components
+import Description from './components/productDesc/Description'
+import AddInfo from './components/productDesc/AddInfo'
+import Review from './components/productDesc/Review'
+
 function App() {
   return (
     <div className="App">
@@ -28,7 +33,11 @@ function App() {
           <Route path='/myaccount' element={<Myaccount />} />
           <Route path='/cart' element={<Cart />} />
           <Route path='/checkout' element={<Checkout />} />
-          <Route path='/details' element={<Details />} />
+          <Route path='/details' element={<Details />}>
+            <Route index={true} element={<Description />} />
+            <Route path='addinfo' element={<AddInfo />} />
+            <Route path='reviews' element={<Review />} />
+          </Route>
         </Routes>
       </main>
       <Footer />
