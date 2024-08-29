@@ -1,5 +1,11 @@
 import "./ProductDetail.css";
-import { FaMinus, FaPlus, FaFacebook, FaLinkedin, FaTwitter  } from "react-icons/fa6";
+import {
+  FaMinus,
+  FaPlus,
+  FaFacebook,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa6";
 
 const ProductDetail = () => {
   return (
@@ -28,7 +34,7 @@ const ProductDetail = () => {
       <div className="product-detail__info">
         <h1 className="name">MIRAGE MR-AT172 285/65 </h1>
         <p className="price">Rs. 50,000.00</p>
-        <div>
+        <div className="shope">
           <p>Shope: Tire House</p>
           <p>5 Customer Review</p>
         </div>
@@ -42,18 +48,20 @@ const ProductDetail = () => {
 
         <div className="size">
           <p>Size</p>
-          <label>
-            <input type="radio" name="size" />
-            <span>17</span>
-          </label>
-          <label>
-            <input type="radio" name="size" />
-            <span>21</span>
-          </label>
-          <label>
-            <input type="radio" name="size" />
-            <span>24</span>
-          </label>
+          <div>
+            <label>
+              <input type="radio" name="size" />
+              <span>17</span>
+            </label>
+            <label>
+              <input type="radio" name="size" />
+              <span>21</span>
+            </label>
+            <label>
+              <input type="radio" name="size" />
+              <span>24</span>
+            </label>
+          </div>
         </div>
 
         <div className="color">
@@ -108,7 +116,7 @@ const ProductDetail = () => {
               <span>Share</span>
               <span>:</span>
             </p>
-            <span>
+            <span className='icon'>
               <FaFacebook />
               <FaLinkedin />
               <FaTwitter />
