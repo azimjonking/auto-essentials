@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const AddInfo = () => {
   return (
-    <div>AddInfo</div>
-  )
-}
+    <section>
+      <h1 style={{ textAlign: "center" }}>Add Info</h1>
+    </section>
+  );
+};
 
-export default AddInfo
+export default AddInfo;

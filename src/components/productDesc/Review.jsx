@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Review = () => {
   return (
-    <div>Review</div>
-  )
-}
+    <section>
+      <h1 style={{ textAlign: "center" }}>Reviews</h1>
+    </section>
+  );
+};
 
-export default Review
+export default Review;

@@ -1,5 +1,5 @@
 import "./ProductDesc.css";
-import { Link, Outlet } from 'react-router-dom';
+import { Link, Outlet } from "react-router-dom";
 
 const ProductDesc = () => {
   return (
@@ -21,7 +21,6 @@ const ProductDesc = () => {
       <div className="product-desc__container">
         <Outlet />
       </div>
-
     </section>
   );
 };

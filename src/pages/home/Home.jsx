@@ -1,11 +1,14 @@
-import "./Home.css"
+import "./Home.css";
+import HomeMain from "../../components/homeMain/HomeMain";
+import NewArrivals from "../../components/newArrivals/NewArrivals";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
-  )
-}
+    <>
+      <HomeMain />
+      <NewArrivals />
+    </>
+  );
+};
 
-export default Home
+export default Home;
