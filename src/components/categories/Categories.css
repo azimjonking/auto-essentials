@@ -1,0 +1,59 @@
+.categories {
+  width: 100%;
+  padding: 50px 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 70px;
+}
+
+.categories .category {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.categories .category .img {
+  height: 357px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.categories .category .img img {
+  height: 100%;
+}
+
+.categories .category-info {
+  width: 100%;
+  padding: 26px 100px 50px;
+}
+
+.categories .category-info h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 54px;
+  text-align: left;
+  color: #000000;
+}
+
+.categories .category-info a {
+  display: inline-block;
+  margin-top: 23px;
+  padding-bottom: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 2px solid #000;
+  transition: all 0.3s ease;
+}
+
+.categories .category-info a:hover {
+  color: #666;
+  border-bottom: 2px solid #666;
+}

@@ -1,0 +1,55 @@
+.social-network {
+  width: 100%;
+  padding: 124px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-network .social-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-network .social-info h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 90px;
+  text-align: center;
+  color: #000000;
+}
+
+.social-network .social-info p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+
+.social-network .social-info a {
+  padding: 17px 80px;
+  border-radius: 50px;
+  box-shadow: 0px 20px 20px 0px #0000001a;
+  background: #fff;
+
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-network .social-info a:hover {
+  background: #4e4b4b;
+  color: #fff;
+}

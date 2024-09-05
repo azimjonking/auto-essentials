@@ -1,0 +1,36 @@
+{
+  "topProducts": [
+    {
+      "id": 1,
+      "name": "Brake system",
+      "image": "./assets/images/brake-system.png",
+      "number": "8-97100-344-2",
+      "shope": "Al Fareed",
+      "price": 2500000
+    },
+    {
+      "id": 2,
+      "name": "Branded Tires",
+      "image": "./assets/images/branded-tires.png",
+      "number": "8-97100-344-2",
+      "shope": "Al Fareed",
+      "price": 2500000
+    },
+    {
+      "id": 3,
+      "name": "Air Filter system",
+      "image": "./assets/images/air-filter.png",
+      "number": "8-97100-344-2",
+      "shope": "Vehicle Accessories",
+      "price": 2500000
+    },
+    {
+      "id": 4,
+      "name": "Car headlights",
+      "image": "./assets/images/car-headlights.png",
+      "number": "8-97100-344-2",
+      "shope": "Light House",
+      "price": 2500000
+    }
+  ]
+}
